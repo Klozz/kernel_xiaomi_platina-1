@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.4.226 Kernel Configuration
+# Linux/arm64 4.4.227 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -270,6 +270,8 @@ CONFIG_ARCH_MMAP_RND_COMPAT_BITS=16
 CONFIG_CLONE_BACKWARDS=y
 CONFIG_OLD_SIGSUSPEND3=y
 CONFIG_COMPAT_OLD_SIGACTION=y
+CONFIG_LITTLE_CPU_MASK=15
+CONFIG_BIG_CPU_MASK=240
 
 #
 # GCOV-based kernel profiling
