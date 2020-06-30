@@ -236,21 +236,5 @@ enum pktcapture_tx_status {
 struct ol_mon_tx_status {
 	uint8_t status;
 	uint8_t tx_retry_cnt;
-	uint16_t chan_num;
 };
-
-/**
- * struct radiotap_header - base radiotap header
- * @it_version: radiotap version, always 0
- * @it_pad: padding (or alignment)
- * @it_len: overall radiotap header length
- * @it_present: (first) present word
- */
-struct radiotap_header {
-	uint8_t it_version;
-	uint8_t it_pad;
-	__le16 it_len;
-	__le32 it_present;
-} __packed;
-
 #endif /* _OL_TXRX__H_ */
